@@ -1,0 +1,42 @@
+{
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "dependencies": {
+    "@stencil/core": "^3.0.0",
+    "markdown-it": "13.0.1",
+    "microsoft-cognitiveservices-speech-sdk": "^1.25.1"
+  },
+  "description": "Stencil Component Starter",
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.11",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "puppeteer": "^19.5.2",
+    "rollup-plugin-node-polyfills": "0.2.1"
+  },
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "name": "pathalias-testing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+  },
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "types": "dist/types/index.d.ts",
+  "unpkg": "dist/pathalias-testing/pathalias-testing.esm.js",
+  "version": "0.0.1"
+}
